@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/botoes.css">
+    <link rel="stylesheet" href="./css/titulos.css">
+    <link rel="stylesheet" href="./css/valor.css">
+    <link rel="stylesheet" href="./css/responsividade.css">
+    <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="logo" src="./images/logo.svg" alt="Logotipo">
+        <div class="bigbox">
+            <div class="box1">
+
+                <section class="valor">
+                    <div class="contaDiv">
+                        <p class="titulo">Conta</p>
+                        <p class="erroConta invisivel" id="erroConta">Quanto deu?</p>
+                    </div>
+                    <input class="inputValor" id="contaValor" type="number" placeholder="0" onblur="validaErro()">
+                </section>
+
+                <section class="valor">
+                    <div class="contaDiv">
+                        <p class="titulo">Número de Pessoas</p>
+                        <p class="erroPessoas invisivel" id="erroPessoas">Dividir por quantos?</p>
+                    </div>
+                    <!--COLOCAR UM - OU + PARA AUMENTAR OU DIMINUIR A QNT DE PESSOAS-->
+                    <input class="inputPessoas" id="qtdPessoas" type="number" placeholder="0" onblur="validaErro()">
+                </section>
+
+                <p class="titulo">Selecione a gorgeta %</p>
+
+                <section class="valorGorgeta">
+                    <button class="btnGorgeta" id="btn5" value="5" onclick="limpar();ouvirbtn('5')">5%</button>
+                    <button class="btnGorgeta" id="btn10" value="10" onclick="limpar();ouvirbtn('10')">10%</button>
+                    <button class="btnGorgeta" id="btn15" value="15" onclick="limpar();ouvirbtn('15')">15%</button>
+                    <button class="btnGorgeta" id="btn25" value="25" onclick="limpar();ouvirbtn('25')">25%</button>
+                    <button class="btnGorgeta" id="btn50" value="50" onclick="limpar();ouvirbtn('50')">50%</button>
+                    <input class="outroValor" id="custom" type="number" placeholder="___??" onkeyup="ouvirbtn()">
+                </section>
+
+            </div>
+            <div class="box2">
+
+                <section class="calculoConta">
+                    <p class="tituloBox2">Conta Total</p>
+                    <p class="tituloPerson">/ mesa</p>
+                    <p class="valorCalculado" id="contaTotalMesa">R$ 0.00</p>
+                </section>
+
+                <section class="calculoConta">
+                    <p class="tituloBox2">Conta</p>
+                    <p class="tituloPerson">/ pessoa</p>
+                    <p class="valorCalculado" id="contaPessoa">R$ 0.00</p>
+                </section>
+
+                <section class="calculoConta">
+                    <p class="tituloBox2">Gorgeta</p>
+                    <p class="tituloPerson">/ pessoa</p>
+                    <p class="valorCalculado" id="gorgetaPorPessoa">R$ 0.00</p>
+                </section>
+
+                <section class="calculoConta">
+                    <p class="tituloBox2"> Conta + Gorgeta</p>
+                    <p class="tituloPerson"> / pessoa</p>
+                    <p class="valorCalculado" id="totalPorPessoa">R$ 0.00</p>
+                </section>
+
+                <button class="btnResetar" id="btnResetar" onclick="reset()">LIMPAR</button>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/script.js"></script>
+    <script src="./js/ouvirbtn.js"></script>
+    <script src="./js/validarErros.js"></script>
+    <script src="./js/configInicial.js"></script>
+</body>
+
+</html>
