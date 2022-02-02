@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/STATUS%20-Pronto-sucess"/>
 
-<h3>Projeto</h3>
+<h3>Descrição do rojeto</h3>
 <p>Calculadora de gorgetas, </p>
 <p>OBS: Realizei a tradução para Pt-Br e algumas alterações ao meu gosto, segue abaixo o original.</p>
 
@@ -17,5 +17,6 @@
 <p><h3>Autor</h3> Frontend Menthor</p>
 <p><h3>Adaptação</h3> Gustavo Silva</p>
 
+<h3>Imagens do projeto</h3>
 <img alt="Imagem do projeto" src="./design/desktop-preview.jpg"/>
 <img alt="Imagem do projeto" src="./design/mobile-design.jpg"/>
