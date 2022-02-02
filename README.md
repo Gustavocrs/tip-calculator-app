@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/STATUS%20-Pronto-sucess"/>
 
-<h3>Descrição do rojeto</h3>
+<h3>Descrição do projeto</h3>
 <p>Calculadora de gorgetas, </p>
 <p>OBS: Realizei a tradução para Pt-Br e algumas alterações ao meu gosto, segue abaixo o original.</p>
 
