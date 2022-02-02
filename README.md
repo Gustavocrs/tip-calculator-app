@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/STATUS%20-Pronto-sucess"/>
 
 <h3>Descrição do projeto</h3>
-<p>Calculadora de gorgetas, </p>
+<p>Calculadora de gorgetas.</p>
 <p>OBS: Realizei a tradução para Pt-Br e algumas alterações ao meu gosto, segue abaixo o original.</p>
 
 <h3>Acesse o projeto</h3><a href="https://gustavocrs.github.io/tip-calculator-app/">Clique Aqui</a> 
