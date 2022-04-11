@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/STATUS%20-Pronto-sucess"/>
 
 <h3>Descrição do projeto</h3>
-<p>Calculadora de gorgetas, baseado no projeto do site Frontend Mentor para divisão de conta entre grupos, com a gorgeta calculada automaticamente, bastando apenas informar o percentual.
+<p>Calculadora de gorgetas, baseado no projeto do site Frontend Mentor para divisão de conta entre grupos, com o valor calculado automaticamente, bastando apenas informar o percentual.
 Realizei algumas adaptações como a tradução para Pt-Br e a inclusão de mais fatores de divisão.</p>
 
 <h3>Acesse o projeto</h3><a href="https://gustavocrs.github.io/tip-calculator-app/">Clique Aqui</a> 
